@@ -47,9 +47,9 @@ $ pkg in phninfo
 Termux install 
 
 ```yaml
-$ pkg upgrate
-$ pkg update
-$ pkg install git
-$ git clone https://github.com/RihanBGC/phninfo
-$ cd phninfo
-$ bash Rus-phninfo
+ pkg upgrate
+ pkg update
+ pkg install git
+ git clone https://github.com/RihanBGC/phninfo
+ cd phninfo
+ bash Rus-phninfo
