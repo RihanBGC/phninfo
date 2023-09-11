@@ -44,39 +44,12 @@ $ pkg in phninfo
 
 ### Manual:
 
-- Clone this repository & run rxfetch.
+Termux install 
 
 ```yaml
-# clones the phninfo repo
+$ pkg upgrate
+$ pkg update
+$ pkg install git
 $ git clone https://github.com/RihanBGC/phninfo
-# cd into phninfo
 $ cd phninfo
-# copy the fonts 
-$ cp ttf-material-design-icons/* $HOME/.local/share/fonts
-# update fontconfig
-$ fc-cache -fv
-$ run phninfo
-$ ./Rus-phninfo
-```
-
-> If you have the fonts installed then just run this command.
-
-```yaml
-$ wget https://raw.githubusercontent.com/Mangeshrex/rxfetch/main/rxfetch && chmod +x rxfetch
-```
-
-- You can also add rxfetch to PATH by placing it in `/usr/local/bin`
-
-```yaml
-$ sudo cp rxfetch /usr/local/bin
-```
-
-- Upload your custom rxfetch script [ here ](https://github.com/Mangeshrex/rxfetch/issues/21)
-
-## Contributors
-
-<a href="https://github.com/Mangeshrex/rxfetch/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Mangeshrex/rxfetch" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
+$ bash Rus-phninfo
