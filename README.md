@@ -52,4 +52,4 @@ Termux install
  pkg install git
  git clone https://github.com/RihanBGC/phninfo
  cd phninfo
- bash Rus-phninfo
+ bash RUS-phninfo.sh
